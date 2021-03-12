@@ -1,0 +1,11 @@
+import MessageTypeSchema from './MessageTypeSchema';
+const MessageCurrentSchema={};
+MessageCurrentSchema[MessageTypeSchema.Text]="sent a message";
+MessageCurrentSchema[MessageTypeSchema.Typing]="typing";
+MessageCurrentSchema[MessageTypeSchema.Path]="sent a link";
+MessageCurrentSchema[MessageTypeSchema.File]="sent a file";
+MessageCurrentSchema[MessageTypeSchema.Image]="sent an image";
+MessageCurrentSchema[MessageTypeSchema.Audio]="sent an audio";
+MessageCurrentSchema[MessageTypeSchema.Video]="sent a video";
+MessageCurrentSchema[MessageTypeSchema.Thumbnail]="sent a thumbnail";
+export default MessageCurrentSchema;

@@ -1,0 +1,1 @@
+export const API_URL='http://cpaas-api.norgic.com/API/v0'
